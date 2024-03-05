@@ -1,37 +1,116 @@
-    body {
+   body {
         font-family: 'Roboto', sans-serif;
         color: #2b283a;
         font-size: 16px;
         margin: 0;
     }
 
-    header {
-      background-color: #5f29a3;
-      padding: 45px 0;
+    /* typography */
+
+    h1, h3 { 
+      margin: 0;
     }
 
     h1 {
       font-weight: 500;
       font-size: 36px;
       color: whitesmoke;
-      margin: 0;
+    }
+
+    h2 {
+        margin-top: 0;
     }
 
     h3 {
       color: #d0aaff;
-      margin: 0;
     }
 
-    section {
+    p {
+      line-height: 23px;
+    }
+
+    /* links */
+
+    a {
+      color: #ef5839;
+      text-decoration: 1px underline #ef5839;
+      text-decoration-style: dotted;
+    }
+
+    .btn{
+      padding: 10px 19px;
+      text-decoration: none;
+      border-radius: 4.6px;
+      font-weight: 500;
+      display: inline-block; 
+     }
+
+    .purple-btn {
+      background-color: #5f29a3;
+      color:whitesmoke;
+    }
+
+    .pink-btn {
+      background-color: #f0e0ff;
+      color: #5f29a3;
+    }
+
+    .white-btn {
+      background-color: whitesmoke;
+      color: #5f29a3;
+    }
+     
+   .purple-btn:active,
+   .purple-btn:hover, 
+   .pink-btn:active,
+   .pink-btn:hover, 
+   .white-btn:active,
+   .white-btn:hover {
+    background-color: #f3e885;
+    color: #5f29a3;
+   }
+
+    /* Layout */
+
+    header, 
+    section, 
+    footer {
       padding: 45px 0;
-
     }
 
-    #purple-sneakers-img {
-      width: 100%;
+    header, .section-2 {
+      background-color: #5f29a3;
     }
 
-    section p {
-      width: 100%;
+    .section-2 {
+      background-size: cover;
+      color: whitesmoke;
+    }
 
+    .container {
+      width: 620px;
+      margin: 0 auto;
+      /* line-height: 23px; */
+    }
+
+    .section-2-img-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 16px;
+      color: #5f29a3;
+    }
+
+    /* images */
+
+    .section-2-img {
+      width: 300px;
+      border-radius: 4.6px;
+    }
+
+    .purple-sneakers-img {
+      width: 100%;
     }
